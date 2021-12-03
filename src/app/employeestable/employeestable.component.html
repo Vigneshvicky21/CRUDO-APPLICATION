@@ -1,0 +1,48 @@
+<h1>
+  Employees Table
+</h1>
+  
+   <div class="box">
+    <i class="fas fa-search"></i>
+     <input type="text" [(ngModel)]="searchValue"  placeholder="Search here"  id="search">
+   </div>
+
+<table  class="table table-bordered table-striped" >
+  <thead >
+    <tr>
+      <th>ID</th>
+      <th>NAME</th>
+      <th>DEPARTMENT</th>
+      <th>GENDER</th>
+      <th>CITY</th>
+      <th>ISMARRIED</th>
+      <th>ACTION</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of employeeeprop | searchfilter: searchValue">
+      <td>{{row.id}}</td>
+      <td>{{row.name}}</td>
+      <td>{{row.department}}</td>
+      <td>{{row.gender}}</td>
+      <td>{{row.city}}</td>
+      <td>{{row.ismarried}}</td>
+      <td>
+        <span class="font1"  style="color:  rgb(0, 0, 0);"> 
+          <i routerLink="/editemployee/{{row.id}}"  class="fas fa-edit"></i>
+        </span>
+        <span  class="font2" style="color:  rgb(0, 0, 0);">
+           <i (click)="DeleteEmployee(row.id)" class="fas fa-trash-alt"></i>
+       </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+<router-outlet></router-outlet>

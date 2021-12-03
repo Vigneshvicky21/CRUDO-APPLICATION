@@ -1,0 +1,49 @@
+<h1>Creating Employee Details</h1>
+<div class="col-sm-6">
+   <form [formGroup]="employeeform"  novalidate>
+     <div class="form-group">
+       <label>ID</label>
+       <input type="number" class="form-control" formControlName="id" placeholder="Enter your id">
+       <span class="error" *ngIf="id && id.invalid && id.touched">id is required</span>
+     </div>
+     <div class="form-group">
+      <label>NAME</label>
+      <input type="text" class="form-control" formControlName="name" placeholder="Enter your name">
+      <span class="error" *ngIf="name && name.invalid && name.touched">name is required</span>
+    </div>
+    <div class="form-group">
+      <label>DEPARTMENT</label>
+      <input type="text" class="form-control" formControlName="department" placeholder="Enter your department">
+      <span class="error" *ngIf="department && department.invalid && department.touched">department is required</span>
+    </div>
+    <div class="form-group">
+      <label>GENDER</label>
+      <select class="form-control" formControlName="gender"  >
+        <option>Male</option>
+        <option>Female</option>
+        <option>Others</option>
+      </select>
+      <span class="error" *ngIf="gender && gender.invalid && gender.touched">gender is required</span>
+    </div>
+     
+    <div class="form-group">
+      <label>CITY</label>
+      <input type="text" class="form-control" formControlName="city" placeholder="your from">
+      <span class="error" *ngIf="city && city.invalid && city.touched">city is required</span>
+    </div>
+
+    <div class="form-group">
+      <label>IS MARRIED</label>
+      <select class="form-control" formControlName="ismarried"  >
+        <option>Yes</option>
+        <option>No</option>
+        
+      </select>
+      <span class="error" *ngIf="ismarried && ismarried.invalid && ismarried.touched">gender is required</span>
+    </div>
+    <br>
+    <br>  
+    <button type="submit" (click)=" postEmployeeDetails()" class="btn btn-dark">submit</button>
+
+   </form>
+</div> 

@@ -1,0 +1,112 @@
+{
+  "posts": [
+    {
+      "id": 5,
+      "name": "santhosh",
+      "gender": "Male",
+      "department": "BCA",
+      "city": "delhi",
+      "ismarried": "No"
+    },
+    {
+      "id": 7,
+      "name": "shakir",
+      "gender": "Female",
+      "department": "12th",
+      "city": "alandur",
+      "ismarried": "No"
+    },
+    {
+      "id": 1,
+      "name": "dinesh",
+      "gender": "Male",
+      "department": "MBA",
+      "city": "australia",
+      "ismarried": "Yes"
+    },
+    {
+      "id": 8,
+      "name": "kadhir",
+      "gender": "Male",
+      "department": "BBA",
+      "city": "los angels",
+      "ismarried": "Yes"
+    },
+    {
+      "id": 9,
+      "name": "kumar",
+      "gender": "Male",
+      "department": "null",
+      "city": "otteri",
+      "ismarried": "No"
+    },
+    {
+      "id": 10,
+      "name": "lokesh",
+      "gender": "Male",
+      "department": "BSC",
+      "city": "tambaram",
+      "ismarried": "Yes"
+    },
+    {
+      "id": 11,
+      "name": "meena",
+      "gender": "Female",
+      "department": "BSC",
+      "city": "tambaram",
+      "ismarried": "No"
+    },
+    {
+      "id": 12,
+      "name": "divya",
+      "gender": "Female",
+      "department": "MBBS",
+      "city": "chennai",
+      "ismarried": "Yes"
+    },
+    {
+      "id": 13,
+      "name": "sneha",
+      "gender": "Female",
+      "department": "MBA",
+      "city": "chennai",
+      "ismarried": "No"
+    },
+    {
+      "id": 14,
+      "name": "ganesh",
+      "gender": "Male",
+      "department": "CA",
+      "city": "erodu",
+      "ismarried": "No"
+    },
+    {
+      "id": 15,
+      "name": "dennis",
+      "gender": "Male",
+      "department": "BCA",
+      "city": "kanchipuram",
+      "ismarried": "Yes"
+    },
+    {
+      "id": 16,
+      "name": "selva",
+      "gender": "Male",
+      "department": "BBA",
+      "city": "kanchipuram",
+      "ismarried": "No"
+    },
+    {
+      "id": 18,
+      "name": "karthik selvan",
+      "department": "BSC IT",
+      "gender": "Male",
+      "city": "madurai",
+      "ismarried": "No"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
